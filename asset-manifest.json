@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactCertificationLvl2/static/css/main.3982bb5f.css",
+    "main.js": "/ReactCertificationLvl2/static/js/main.d94ac02f.js",
+    "index.html": "/ReactCertificationLvl2/index.html",
+    "main.3982bb5f.css.map": "/ReactCertificationLvl2/static/css/main.3982bb5f.css.map",
+    "main.d94ac02f.js.map": "/ReactCertificationLvl2/static/js/main.d94ac02f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3982bb5f.css",
+    "static/js/main.d94ac02f.js"
+  ]
+}
