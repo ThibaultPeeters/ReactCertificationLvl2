@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, Outlet } from "react-router-dom";
+import { createHashRouter , Outlet } from "react-router-dom";
 import QuizCreation from "./Composant/QuizCreation";
 import QuizResults from "./Composant/QuizResults";
 
@@ -13,7 +13,7 @@ function RootLayout() {
     );
 }
 
-const router = createBrowserRouter([
+const router = createHashRouter ([
     {
         path: "/",
         element: <RootLayout />,
