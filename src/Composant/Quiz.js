@@ -16,7 +16,7 @@ function Quiz({ listQuestions }) {
 
     function handleSubmit(e) {
         e.preventDefault();
-        navigate("/results", { state: { questions: listQuestions, answers: answersGiven } });
+        navigate("/results", { state: { questions: shuffledQuestions, answers: answersGiven } });
     }
 
     useEffect(() => {
